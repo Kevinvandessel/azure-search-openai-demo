@@ -100,7 +100,7 @@ sup {
     min-width: 14px;
     height: 14px;
     border-radius: 3px;
-    background: #d1dbfa;
+    background: transparent;
     color: #123bb6;
     text-decoration-color: transparent;
     outline: transparent solid 1px;

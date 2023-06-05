@@ -10,7 +10,7 @@ from text import nonewlines
 class RetrieveThenReadApproach(Approach):
 
     template = \
-"You are an intelligent assistant helping Contoso Inc employees with their healthcare plan questions and employee handbook questions. " + \
+"You are an intelligent assistant helping employees with their questions. " + \
 "Use 'you' to refer to the individual asking the questions even if they ask with 'I'. " + \
 "Answer the following question using only the data provided in the sources below. " + \
 "For tabular information return it as an html table. Do not return markdown format. "  + \
@@ -19,16 +19,15 @@ class RetrieveThenReadApproach(Approach):
 """
 
 ###
-Question: 'What is the deductible for the employee plan for a visit to Overlake in Bellevue?'
+Question: 'What are the recommended steps to mitigate battery drainage?'
 
 Sources:
-info1.txt: deductibles depend on whether you are in-network or out-of-network. In-network deductibles are $500 for employee and $1000 for family. Out-of-network deductibles are $1000 for employee and $2000 for family.
-info2.pdf: Overlake is in-network for the employee plan.
-info3.pdf: Overlake is the name of the area that includes a park and ride near Bellevue.
-info4.pdf: In-network institutions include Overlake, Swedish and others in the region
+info1.txt: Optimise the device using the device care feature. When you are not using the device, turn off the screen by pressing the Side key.
+info2.pdf: Save battery life by limiting background network usage, syncing, and location checking. Choose from additional power saving options to save more power when this mode is enabled.
+info3.pdf: While charging, the device and the charger may become hot and stop charging. This usually does not affect the device’s lifespan or performance and is in the device’s normal range of operation
 
 Answer:
-In-network deductibles are $500 for employee and $1000 for family [info1.txt] and Overlake is in-network for the employee plan [info2.pdf][info4.pdf].
+You can decrease your battery drainage by using the device care feature [info1.txt], limiting bacground network usage, syncing, and location checking [info2.pdf].
 
 ###
 Question: '{q}'?

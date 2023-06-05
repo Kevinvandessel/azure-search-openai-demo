@@ -5,8 +5,7 @@
 }
 
 .header {
-    background-color: #222222;
-    color: #f2f2f2;
+    background-color: #ffffff;
 }
 
 .headerContainer {
@@ -41,7 +40,7 @@
 }
 
 .headerNavPageLink {
-    color: #f2f2f2;
+    color: rgb(56, 56, 56);
     text-decoration: none;
     opacity: 0.75;
 
@@ -55,7 +54,7 @@
 }
 
 .headerNavPageLinkActive {
-    color: #f2f2f2;
+    color: rgb(56, 56, 56);
     text-decoration: none;
 }
 

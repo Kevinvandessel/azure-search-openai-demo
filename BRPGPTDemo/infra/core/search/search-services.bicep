@@ -3,9 +3,9 @@ param location string = resourceGroup().location
 param tags object = {}
 
 param sku object = {
-  name: 'standard'
+  name: 'free' 
 }
-
+// changed sku object from standard to free
 param authOptions object = {}
 param semanticSearch string = 'disabled'
 
