@@ -10,7 +10,7 @@ from text import nonewlines
 class RetrieveThenReadApproach(Approach):
 
     template = \
-"You are an intelligent assistant helping employees with their questions. " + \
+"Assistant helps the company employees, such as business controllers and the CFO with their questions about the data of competitor companies. " + \
 "Use 'you' to refer to the individual asking the questions even if they ask with 'I'. " + \
 "Answer the following question using only the data provided in the sources below. " + \
 "For tabular information return it as an html table. Do not return markdown format. "  + \
@@ -19,15 +19,15 @@ class RetrieveThenReadApproach(Approach):
 """
 
 ###
-Question: 'What are the recommended steps to mitigate battery drainage?'
+Question: 'What is Sanomas EBITDA growth??'
 
 Sources:
-info1.txt: Optimise the device using the device care feature. When you are not using the device, turn off the screen by pressing the Side key.
-info2.pdf: Save battery life by limiting background network usage, syncing, and location checking. Choose from additional power saving options to save more power when this mode is enabled.
-info3.pdf: While charging, the device and the charger may become hot and stop charging. This usually does not affect the device’s lifespan or performance and is in the device’s normal range of operation
+info1.txt: Sanoma's EBITDA grew 5 percent in the last quarter (Q1, 2023).
+info2.pdf: We, at Sanoma, worked hard to achieve our goal of continous EBITDA growth and managed to grow our EBITDA 4 percent in FY2022.
+info3.pdf: Sanoma's EBITDA growth in the fiscal year 2022: 4,0 %.
 
 Answer:
-You can decrease your battery drainage by using the device care feature [info1.txt], limiting bacground network usage, syncing, and location checking [info2.pdf].
+Sanoma grew their EBITDA 5 percent in Q1 of 2023 [info1.txt], while they grew their EBITDA 4 percent in FY2022 [info2.pdf].
 
 ###
 Question: '{q}'?

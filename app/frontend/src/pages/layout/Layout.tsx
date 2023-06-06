@@ -26,7 +26,7 @@ const Layout = () => {
                             </li>
                         </ul>
                     </nav>
-                    <h4 className={styles.headerRightText}>Azure OpenAI + Cognitive Search - BearingPoint Advisor</h4>
+                    <h4 className={styles.headerRightText}>CFO 4.0 - BearingPoint Advisor</h4>
                 </div>
             </header>
 

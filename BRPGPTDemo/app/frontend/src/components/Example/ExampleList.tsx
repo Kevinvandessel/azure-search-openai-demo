@@ -9,11 +9,11 @@ export type ExampleModel = {
 
 const EXAMPLES: ExampleModel[] = [
     {
-        text: "Why is my device overheating?",
-        value: "Why is my device overheating?"
+        text: "What is the EBIT growth of each of our competitors?",
+        value: "What is the EBIT growth of each of our competitors?"
     },
-    { text: "How can I increase my battery life?", value: "How can I increase my battery life?" },
-    { text: "How do I create routines to my device?", value: "How do I create routines to my device?" }
+    { text: "What are the most recent acquisitions of our competitors?", value: "What are the most recent acquisitions of our competitors?" },
+    { text: "What are the financial targets of our competitors?", value: "What are the financial targets of our competitors?" }
 ];
 
 interface Props {
