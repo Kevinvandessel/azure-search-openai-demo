@@ -2,7 +2,7 @@ import { useRef, useState, useEffect } from "react";
 import { Checkbox, Panel, DefaultButton, TextField, SpinButton } from "@fluentui/react";
 
 import styles from "./Chat.module.css";
-import brplogo from "../../assets/brplogo.svg";
+import brplogo from "../../assets/whitelogobrp.png";
 
 import { chatApi, Approaches, AskResponse, ChatRequest, ChatTurn } from "../../api";
 import { Answer, AnswerError, AnswerLoading } from "../../components/Answer";

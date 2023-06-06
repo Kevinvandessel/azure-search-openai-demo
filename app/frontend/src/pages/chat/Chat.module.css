@@ -38,6 +38,7 @@
 .chatEmptyStateSubtitle {
     font-weight: 600;
     margin-bottom: 10px;
+    color: white;
 }
 
 @media only screen and (max-height: 780px) {
@@ -48,6 +49,7 @@
     .chatEmptyStateTitle {
         font-size: 3rem;
         margin-bottom: 0px;
+        color: white;
     }
 }
 
@@ -85,7 +87,7 @@
     padding-right: 24px;
     width: 100%;
     max-width: 1028px;
-    background: #ffffff;
+    background-color: transparent;
 }
 
 .chatAnalysisPanel {
